@@ -1,7 +1,10 @@
-# Determine cuales son los múltiplos de 5 comprendidos entre 1 y N
-N = int(input("Ingrese un valor para N: "))
-i = 1
-while i <= N:
-    if i % 5 == 0:
-        print(i)
-    i += 1
+numero = int(input("Introduce un número entero positivo: "))
+divisor = 1
+
+print("Los divisores de", numero, "son:")
+
+while divisor <= numero:
+    if numero % divisor == 0:
+        print(divisor)
+    divisor += 1
+
