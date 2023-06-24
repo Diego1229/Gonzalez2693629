@@ -14,6 +14,7 @@ def encontrar_divisores(numero):
     return divisores
 
 divisores = encontrar_divisores(numero)
-print("Divisores de", numero, "encontrados con función:")
+print("Divisores de", numero, "encontrados con función:") 
 for divisor in divisores:
     print(divisor)
+   
